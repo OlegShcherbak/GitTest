@@ -1,0 +1,89 @@
+/* .container {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  overflow: visible;
+  cursor: pointer;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid #771407;
+  transform: rotate(-4deg);
+  transition: transform 0.3s;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+}
+
+.container:hover::before {
+  transform: rotate(4deg);
+}
+
+button {
+  width: 240px;
+  height: 60px;
+  background: #9be481;
+  border: none;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+} */
+.container {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  overflow: visible;
+  cursor: pointer;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid #771407;
+  transform: rotate(-4deg);
+  transition: transform 0.3s;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+}
+
+.container:hover::before {
+  transform: rotate(4deg);
+}
+
+
+button {
+  width: 240px;
+  height: 60px;
+  background: #9be481;
+  border: none;
+  border-bottom-left-radius: 90% 100%;
+  border-bottom-right-radius: 90% 100%;
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
+}
+
+button:after {
+  background: #47A824;
+}
